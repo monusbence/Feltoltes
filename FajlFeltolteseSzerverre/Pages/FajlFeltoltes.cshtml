@@ -1,0 +1,10 @@
+﻿@page
+@model FajlFeltolteseSzerverre.Pages.FajlFeltoltesModel
+@{
+
+}
+<form method="post" enctype="multipart/form-data">
+    <label asp-for="Feltoltes">Válassza ki a feltöltendő állományt:</label>
+    <input type="file" asp-for="Feltoltes" />
+    <input type="submit" value="Feltölt" />
+</form>
